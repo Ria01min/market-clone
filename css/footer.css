@@ -8,7 +8,7 @@ footer {
     padding-bottom: 30px;
     /* 줄과 아이콘을 띄우기 위함 */
     padding-top: 30px;
-    border-top: 1px solid #ededef;
+    border-top: 1px solid var(--boder-color);
     background-color: white;
 }
 
@@ -67,6 +67,7 @@ footer {
 
 }
 
+/* 밑에 텍스트에 호버해도 이미지만 둥둥 떠다님 */
 .footer-icons:hover .footer-icons__img {
     animation: 2s icons-move-up;
 }

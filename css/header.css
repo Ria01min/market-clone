@@ -1,7 +1,7 @@
 /* 헤더 바 */
 header {
     margin-top: 10px;
-    border-bottom: 1px solid #ededef;
+    border-bottom: 1px solid var(--boder-color);
     padding-bottom: 10px;
 
 }
