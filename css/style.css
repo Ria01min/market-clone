@@ -9,7 +9,9 @@ body {
 }
 
 .media-info-msg {
-    position: absolute;
+    /* position: absolute; 상단에 고정되어 있음. 스크롤을 내리면 콘텐츠들이 다시 보임 */
+    /* 화면에 맞게 따라다니는 기능 */
+    position: fixed;
     top: 0;
     left: 0;
     width: 100vw;
@@ -18,11 +20,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    opacity: 1;
 }
 
 @media screen and (max-width: 600px) {
     .media-info-msg {
-        opacity: 0;
+        /* 아예 투명하게 덮고 있어 클릭이 안되기 때문에  opacity: 0; 대신*/
+        display: none;
     }
 }
