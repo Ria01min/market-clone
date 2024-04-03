@@ -1,0 +1,28 @@
+/* style.css에 다른 css파일을 뭉쳐서 HTML에는 style.css만 link시키면 된다. */
+@import "reset.css";
+@import "header.css";
+@import "footer.css";
+@import "main.css";
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard Variable", Pretendard, Roboto, "Noto Sans KR", "Segoe UI", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+}
+
+.media-info-msg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: salmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+}
+
+@media screen and (max-width: 600px) {
+    .media-info-msg {
+        opacity: 0;
+    }
+}
