@@ -1,73 +1,71 @@
 footer {
-    /* 영역을 아래로 위치(고정시킴) */
-    position: fixed;
-    bottom: 0;
-    /* view-width 우리가 보는 화면에 너비를 100% 채운다 */
-    width: 100vw;
-    /* 아이콘들이 바닥에 너무 붙어있어서 띄우기 위함. 이 때는 마진보단 패딩을 주로 사용 */
-    padding-bottom: 30px;
-    /* 줄과 아이콘을 띄우기 위함 */
-    padding-top: 30px;
-    border-top: 1px solid var(--boder-color);
-    background-color: white;
+  /* 영역을 아래로 위치(고정시킴) */
+  position: fixed;
+  bottom: 0;
+  /* view-width 우리가 보는 화면에 너비를 100% 채운다 */
+  width: 100vw;
+  /* 아이콘들이 바닥에 너무 붙어있어서 띄우기 위함. 이 때는 마진보단 패딩을 주로 사용 */
+  padding-bottom: 30px;
+  /* 줄과 아이콘을 띄우기 위함 */
+  padding-top: 30px;
+  border-top: 1px solid var(--boder-color);
+  background-color: white;
 }
 
 .footer-block {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .footer-icons {
-    /* 상위요소에 css를 적용시키면 상속된다. 고로 ,<div>홈</div>에 따로 클라스를 지정하지 않아도 됨
+  /* 상위요소에 css를 적용시키면 상속된다. 고로 ,<div>홈</div>에 따로 클라스를 지정하지 않아도 됨
     font-size: 10px; 상속 속성 reset.css 때문에 적용이 안됨 */
 
-    /* 글자를 중간에 배치 */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* 이미지와 글자가 flex로 인해 옆으로 배치되었기에, 위 아래로 배치시키고 싶을 때 사용 */
-    flex-direction: column;
-    /* 이미지를 떨어트려놓기 */
-    margin: 0 10px 0 10px;
-    /* 커서를 가져다 대면 화살표 모양에서 손바닥 모양으로 바뀜 */
-    cursor: pointer;
+  /* 글자를 중간에 배치 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* 이미지와 글자가 flex로 인해 옆으로 배치되었기에, 위 아래로 배치시키고 싶을 때 사용 */
+  flex-direction: column;
+  /* 이미지를 떨어트려놓기 */
+  margin: 0 10px 0 10px;
+  /* 커서를 가져다 대면 화살표 모양에서 손바닥 모양으로 바뀜 */
+  cursor: pointer;
 }
 
 .footer-icons__desc {
-    /* font-size로 크기를 조절할 수도 있고 scale로도 조정가능 */
-    font-weight: bold;
-    transform: scale(0.8);
-    /* 다른 태그들이랑 띄워야 하니 마진 사용 */
-    margin-top: 5px;
-
+  /* font-size로 크기를 조절할 수도 있고 scale로도 조정가능 */
+  font-weight: bold;
+  transform: scale(0.8);
+  /* 다른 태그들이랑 띄워야 하니 마진 사용 */
+  margin-top: 5px;
 }
 
 /* 애니메이션을 넣을 때 */
 @keyframes icons-move-up {
-    0% {
-        transform: translateY(0px);
-    }
+  0% {
+    transform: translateY(0px);
+  }
 
-    30% {
-        transform: translateY(-10px);
-    }
+  30% {
+    transform: translateY(-10px);
+  }
 
-    70% {
-        transform: translateY(-10px);
-    }
+  70% {
+    transform: translateY(-10px);
+  }
 
-    100% {
-        transform: translateY(0px);
-    }
+  100% {
+    transform: translateY(0px);
+  }
 }
 
 .footer-icons__img {
-    width: 30px;
-
+  width: 30px;
 }
 
 /* 밑에 텍스트에 호버해도 이미지만 둥둥 떠다님 */
 .footer-icons:hover .footer-icons__img {
-    animation: 2s icons-move-up;
+  animation: 2s icons-move-up;
 }

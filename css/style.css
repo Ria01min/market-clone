@@ -6,32 +6,35 @@
 
 /* 색상을 변수로 주는 방법 - 적용할 땐 var()*/
 :root {
-    --button-primary: rgb(254, 111, 15);
-    --button-hover: rgba(254, 111, 15, 0.8);
-    --boder-color: #ededef;
+  --button-primary: rgb(254, 111, 15);
+  --button-hover: rgba(254, 111, 15, 0.8);
+  --boder-color: #ededef;
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard Variable", Pretendard, Roboto, "Noto Sans KR", "Segoe UI", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo",
+    "Pretendard Variable", Pretendard, Roboto, "Noto Sans KR", "Segoe UI",
+    "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    sans-serif;
 }
 
 .media-info-msg {
-    /* position: absolute; 상단에 고정되어 있음. 스크롤을 내리면 콘텐츠들이 다시 보임 */
-    /* 화면에 맞게 따라다니는 기능 */
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: salmon;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  /* position: absolute; 상단에 고정되어 있음. 스크롤을 내리면 콘텐츠들이 다시 보임 */
+  /* 화면에 맞게 따라다니는 기능 */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: salmon;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media screen and (max-width: 600px) {
-    .media-info-msg {
-        /* 아예 투명하게 덮고 있어 클릭이 안되기 때문에  opacity: 0; 대신*/
-        display: none;
-    }
+  .media-info-msg {
+    /* 아예 투명하게 덮고 있어 클릭이 안되기 때문에  opacity: 0; 대신*/
+    display: none;
+  }
 }
