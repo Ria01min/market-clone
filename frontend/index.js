@@ -9,7 +9,7 @@ const clacTime = (timestamp) => {
   if (hour > 0) return `${hour}시간 전`;
   else if (minute > 0) return `${minute}분 전`;
   else if (second > 0) return `${second}초 전`;
-  else "방금 전";
+  else return "방금 전";
 };
 
 const renderData = (data) => {
