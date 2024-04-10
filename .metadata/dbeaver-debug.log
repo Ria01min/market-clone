@@ -177,3 +177,16 @@ Caused by: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing datab
 > Start DBeaver Data Transfer [org.jkiss.dbeaver.data.transfer 2.0.112.202404071654]
 > Start ICU4J Base [com.ibm.icu.base 58.2.0.v20170418-1837]
 > Start DBeaver SQLite UI [org.jkiss.dbeaver.ext.sqlite.ui 1.0.98.202404071654]
+2024-04-10 12:31:53.087 - System suspend detected! Reinitialize all remote connections.
+2024-04-10 13:25:58.885 - System suspend detected! Reinitialize all remote connections.
+2024-04-10 13:45:03.991 - System suspend detected! Reinitialize all remote connections.
+2024-04-10 14:21:55.689 - System suspend detected! Reinitialize all remote connections.
+2024-04-10 14:38:45.744 - System suspend detected! Reinitialize all remote connections.
+2024-04-10 14:46:06.415 - System suspend detected! Reinitialize all remote connections.
+2024-04-10 15:18:22.672 - System suspend detected! Reinitialize all remote connections.
+2024-04-10 15:47:07.677 - System suspend detected! Reinitialize all remote connections.
+2024-04-10 15:53:19.987 - System suspend detected! Reinitialize all remote connections.
+2024-04-10 15:56:25.728 - System suspend detected! Reinitialize all remote connections.
+2024-04-10 15:58:33.789 - System suspend detected! Reinitialize all remote connections.
+2024-04-10 16:02:10.866 - System suspend detected! Reinitialize all remote connections.
+2024-04-10 19:01:37.360 - System suspend detected! Reinitialize all remote connections.

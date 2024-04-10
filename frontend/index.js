@@ -1,5 +1,4 @@
-const clacTime = (timestamp) => {
-  //한국시간 UTC+9
+function calcTime(timestamp) {
   const curTime = new Date().getTime() - 9 * 60 * 60 * 1000;
   const time = new Date(curTime - timestamp);
   const hour = time.getHours();
@@ -10,11 +9,11 @@ const clacTime = (timestamp) => {
   else if (minute > 0) return `${minute}분 전`;
   else if (second > 0) return `${second}초 전`;
   else return "방금 전";
-};
+}
 
-const renderData = (data) => {
+function renderData(data) {
   const main = document.querySelector("main");
-  //forEach()로 값만 뽑을 수 있다.
+
   data.reverse().forEach(async (obj) => {
     const div = document.createElement("div");
     div.className = "item-list";
@@ -37,7 +36,7 @@ const renderData = (data) => {
 
     const InfoMetaDiv = document.createElement("div");
     InfoMetaDiv.className = "item-list__info-meta";
-    InfoMetaDiv.innerText = obj.place + " " + clacTime(obj.insertAt);
+    InfoMetaDiv.innerText = obj.place + " " + calcTime(obj.insertAt);
 
     const InfoPriceDiv = document.createElement("div");
     InfoPriceDiv.className = "item-list__info-price";
@@ -51,12 +50,22 @@ const renderData = (data) => {
     div.appendChild(InfoDiv);
     main.appendChild(div);
   });
-};
+}
 
-const fetchList = async () => {
-  const res = await fetch("/items");
+async function fetchList() {
+  const accessToken = window.localStorage.getItem("token");
+  const res = await fetch("/items", {
+    headers: {
+      Authorization: `Bearer ${accessToken}`,
+    },
+  });
+  if (res.status === 401) {
+    alert("로그인이 필요합니다.");
+    window.location.pathname = "/login.html";
+  }
+
   const data = await res.json();
   renderData(data);
-};
+}
 
 fetchList();
