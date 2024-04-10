@@ -15,7 +15,7 @@ cur.execute(f"""
 	            image BLOB,
 	            price INTEGER NOT NULL,
 	            description TEXT,
-	            place TEXT NOT NULL
+	            place TEXT NOT NULL,
 	            insertAt INTEGER NOT NULL
             );
             """)
@@ -59,7 +59,20 @@ async def get_image(item_id):
                               SELECT image from items WHERE id={item_id}
                               """).fetchone()[0]
     
-    return Response(content=bytes.fromhex(image_bytes))
+    return Response(content=bytes.fromhex(image_bytes), media_type='image/*')
 
+#회원가입
+@app.post('/signup') #사용자가 POST요청을 보내면 아래의 함수가 실행됨
+def signup(id:Annotated[str,Form()], 
+           password:Annotated[str,Form()],
+           name:Annotated[str,Form()],
+           email:Annotated[str,Form()]): #Form()은 HTML에서 해당 필드의 값을 추출함
+    #1. 받은 정보 DB에 저장 로직  2. DBever에서 테이블 생성
+    cur.execute(f"""
+                INSERT INTO users (id, name, email, password)
+                VALUES ('{id}', '{name}', '{email}', '{password}')
+                """)
+    con.commit()
+    return '200' #단순히 문자열 '200'을 반환. 클라이언트에게 성공적인 요청을 알림. 여기서 HTTP응답코드 200은 "OK"를 나타냄.
 
 app.mount("/", StaticFiles(directory="frontend", html=True), name="frontend")

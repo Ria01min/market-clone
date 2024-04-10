@@ -24,6 +24,11 @@ header {
 
 /* 메뉴 바 */
 
+#grid {
+  display: grid;
+  grid-template-columns: 1fr 87px;
+}
+
 .menu-bar {
   display: flex;
   justify-content: space-between;

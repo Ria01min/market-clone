@@ -1,0 +1,179 @@
+2024-04-10 11:21:05.551 - DBeaver 24.0.2.202404071654 is starting
+2024-04-10 11:21:05.551 - OS: Mac OS X 14.4.1 (x86_64)
+2024-04-10 11:21:05.551 - Java version: 17.0.6 by Eclipse Adoptium (64bit)
+2024-04-10 11:21:05.552 - Install path: '/Applications/DBeaver.app/Contents/Eclipse'
+2024-04-10 11:21:05.552 - Instance path: 'file:/Applications/My_Python_PJ/clon1/market-clone/'
+2024-04-10 11:21:05.558 - Memory available 64Mb/1024Mb
+> Start DBeaver UI Editors - Base [org.jkiss.dbeaver.ui.editors.base 1.0.128.202404071654]
+2024-04-10 11:21:05.627 - Starting instance server at http://localhost:58543
+2024-04-10 11:21:05.640 - Run workbench
+2024-04-10 11:21:05.641 - Create display
+> Start Eclipse e4 작업영역 SWT [org.eclipse.e4.ui.workbench.swt 0.17.200.v20231030-2045]
+> Start Eclipse Application Services [org.eclipse.e4.core.services 2.4.200.v20231103-2012]
+> Start Eclipse UI Application Services [org.eclipse.e4.ui.services 1.6.200.v20231030-2045]
+> Start Eclipse e4 Progress View [org.eclipse.e4.ui.progress 0.4.200.v20231030-2045]
+> Start Eclipse Bindings Support [org.eclipse.e4.ui.bindings 0.14.200.v20231030-2045]
+> Start Eclipse e4 core commands [org.eclipse.e4.core.commands 1.1.200.v20231108-1058]
+> Start EMF XML/XMI Persistence [org.eclipse.emf.ecore.xmi 2.36.0.v20231002-1156]
+> Start Eclipse e4 작업영역 기능 추가 [org.eclipse.e4.ui.workbench.addons.swt 1.5.200.v20231106-1600]
+> Start Eclipse e4 작업영역 SWT 렌더러 [org.eclipse.e4.ui.workbench.renderers.swt 0.16.200.v20231030-2045]
+> Start Eclipse Dependency Injection Extensions [org.eclipse.e4.core.di.extensions 0.18.100.v20231103-2012]
+> Start Eclipse CSS SWT Support [org.eclipse.e4.ui.css.swt 0.15.200.v20231025-0632]
+> Start Eclipse CSS SWT Theme Support [org.eclipse.e4.ui.css.swt.theme 0.14.200.v20230913-1724]
+2024-04-10 11:21:09.599 - Configure workbench window
+> Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.118.202404071654]
+2024-04-10 11:21:09.889 - Total database drivers: 111 (111)
+> Start 도움말 시스템 코어 [org.eclipse.help 3.10.200.v20231106-1240]
+2024-04-10 11:21:10.152 - Create actions
+2024-04-10 11:21:10.171 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
+2024-04-10 11:21:10.172 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
+2024-04-10 11:21:10.172 - Disable Eclipse action set 'org.eclipse.ui.actionSet.openFiles'
+2024-04-10 11:21:10.173 - Create workbench actions
+> Start jna [com.sun.jna 5.13.0.v20230812-1000]
+> Start DBeaver UI Editors - Data [org.jkiss.dbeaver.ui.editors.data 1.0.128.202404071654]
+2024-04-10 11:21:12.957 - Initialize workbench window
+2024-04-10 11:21:12.962 - Finish initialization
+> Start GEF Classic Draw2d [org.eclipse.draw2d 3.14.100.202311222042]
+> Start GEF Classic GEF (MVC) [org.eclipse.gef 3.16.0.202311222042]
+> Start DBeaver ERD UI [org.jkiss.dbeaver.erd.ui 3.0.88.202404071654]
+> Start 인터넷 연결 관리 사용자 인터페이스 [org.eclipse.ui.net 1.5.200.v20231106-1240]
+> Start Internet Connection Management [org.eclipse.core.net 1.5.200.v20231106-1240]
+Warning: NLS unused message: actions_navigator__objects in: org.jkiss.dbeaver.ui.editors.sql.internal.SQLEditorMessages
+> Start DBeaver UI Editors - SQL [org.jkiss.dbeaver.ui.editors.sql 1.0.128.202404071654]
+> Start DBeaver ERD Model [org.jkiss.dbeaver.erd.model 1.0.88.202404071654]
+> Start DBeaver Dashboard UI [org.jkiss.dbeaver.ui.dashboard 1.0.125.202404071654]
+> Start DBeaver Dashboards Model [org.jkiss.dbeaver.model.dashboard 1.0.1.202404071654]
+> Start 기본 문서 편집기 [org.eclipse.ui.editors 3.17.100.v20231106-1600]
+> Start 텍스트 편집기 프레임워크 [org.eclipse.ui.workbench.texteditor 3.17.200.v20231106-1600]
+> Start DBeaver Sample Database [org.jkiss.dbeaver.ext.sample.database 1.0.165.202404071654]
+> Start DBeaver Tip of the day [org.jkiss.dbeaver.ext.ui.tipoftheday 1.0.134.202404071654]
+2024-04-10 11:21:16.171 - Open [https://dbeaver.io/product/version.xml]
+> Start DBeaver JDBC Model [org.jkiss.dbeaver.model.jdbc 1.0.21.202404071654]
+> Start DBeaver Generic Plug-in [org.jkiss.dbeaver.ext.generic 2.3.214.202404071654]
+> Start DBeaver SQLite Model [org.jkiss.dbeaver.ext.sqlite 1.0.177.202404071654]
+> Start DBeaver UI Editors - Connections [org.jkiss.dbeaver.ui.editors.connection 1.0.119.202404071654]
+> Start DBeaver Generic UI Plug-in [org.jkiss.dbeaver.ext.generic.ui 1.0.104.202404071654]
+2024-04-10 11:21:31.064 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
+2024-04-10 11:21:53.522 - Open [https://repo1.maven.org/maven2/org/xerial/sqlite-jdbc/maven-metadata.xml]
+2024-04-10 11:21:54.229 - Open [https://repo1.maven.org/maven2/org/xerial/sqlite-jdbc/3.45.2.0/sqlite-jdbc-3.45.2.0.pom]
+2024-04-10 11:21:54.456 - Open [https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.pom]
+2024-04-10 11:21:54.629 - Open [https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.36/slf4j-parent-1.7.36.pom]
+2024-04-10 11:22:06.432 - Connect with 'db.db' (sqlite_jdbc-18ec5cf7395-1e8b88b587ce04b2)
+2024-04-10 11:22:06.567 - Execution context opened (db.db; Main; 0)
+2024-04-10 11:22:15.058 - Error creating driver 'SQLite' instance.
+Most likely required jar files are missing.
+You should configure jars in driver settings.
+
+Reason: can't load driver class 'org.sqlite.JDBC'
+org.jkiss.dbeaver.DBException: Error creating driver 'SQLite' instance.
+Most likely required jar files are missing.
+You should configure jars in driver settings.
+
+Reason: can't load driver class 'org.sqlite.JDBC'
+	at org.jkiss.dbeaver.registry.driver.DriverDescriptor.loadDriver(DriverDescriptor.java:1278)
+	at org.jkiss.dbeaver.registry.driver.DriverDescriptor.loadDriver(DriverDescriptor.java:1207)
+	at org.jkiss.dbeaver.registry.driver.DriverDescriptor.getDriverInstance(DriverDescriptor.java:746)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.getDriverInstance(JDBCDataSource.java:717)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.createDriverInstance(JDBCDataSource.java:282)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:198)
+	at org.jkiss.dbeaver.ext.generic.model.GenericDataSource.openConnection(GenericDataSource.java:159)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCExecutionContext.connect(JDBCExecutionContext.java:106)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.initializeMainContext(JDBCRemoteInstance.java:102)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.<init>(JDBCRemoteInstance.java:61)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.initializeRemoteInstance(JDBCDataSource.java:119)
+	at org.jkiss.dbeaver.ext.generic.model.GenericDataSource.<init>(GenericDataSource.java:124)
+	at org.jkiss.dbeaver.ext.sqlite.model.SQLiteDataSource.<init>(SQLiteDataSource.java:50)
+	at org.jkiss.dbeaver.ext.sqlite.model.SQLiteMetaModel.createDataSourceImpl(SQLiteMetaModel.java:153)
+	at org.jkiss.dbeaver.ext.generic.GenericDataSourceProvider.openDataSource(GenericDataSourceProvider.java:106)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.openDataSource(DataSourceDescriptor.java:1366)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect0(DataSourceDescriptor.java:1243)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect(DataSourceDescriptor.java:1033)
+	at org.jkiss.dbeaver.runtime.jobs.ConnectJob.run(ConnectJob.java:77)
+	at org.jkiss.dbeaver.runtime.jobs.ConnectJob.runSync(ConnectJob.java:104)
+	at org.jkiss.dbeaver.ui.actions.datasource.DataSourceHandler.connectToDataSource(DataSourceHandler.java:117)
+	at org.jkiss.dbeaver.ui.actions.datasource.UIServiceConnectionsImpl.initConnection(UIServiceConnectionsImpl.java:87)
+	at org.jkiss.dbeaver.model.DBUtils.initDataSource(DBUtils.java:2505)
+	at org.jkiss.dbeaver.model.navigator.DBNDataSource.initializeNode(DBNDataSource.java:158)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.getChildren(DBNDatabaseNode.java:227)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.getChildren(DBNDatabaseNode.java:1)
+	at org.jkiss.dbeaver.model.navigator.DBNUtils.getNodeChildrenFiltered(DBNUtils.java:91)
+	at org.jkiss.dbeaver.ui.navigator.database.load.TreeLoadService.evaluate(TreeLoadService.java:49)
+	at org.jkiss.dbeaver.ui.navigator.database.load.TreeLoadService.evaluate(TreeLoadService.java:1)
+	at org.jkiss.dbeaver.ui.LoadingJob.run(LoadingJob.java:89)
+	at org.jkiss.dbeaver.ui.LoadingJob.run(LoadingJob.java:73)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.ClassNotFoundException: org.sqlite.JDBC
+	at java.base/java.net.URLClassLoader.findClass(Unknown Source)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Unknown Source)
+	at org.jkiss.dbeaver.registry.driver.DriverDescriptor.loadDriver(DriverDescriptor.java:1276)
+	... 32 more
+2024-04-10 11:22:20.934 - Open [https://repo1.maven.org/maven2/org/xerial/sqlite-jdbc/3.45.2.0/sqlite-jdbc-3.45.2.0.jar]
+2024-04-10 11:22:22.672 - Open [https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar]
+2024-04-10 11:22:22.819 - Open [https://www.apache.org/licenses/LICENSE-2.0.txt]
+2024-04-10 11:22:23.095 - Connect with 'db.db' (sqlite_jdbc-18ec5cf7395-1e8b88b587ce04b2)
+2024-04-10 11:22:23.097 - Execution context opened (db.db; Main; 1)
+2024-04-10 11:22:23.899 - Connected (sqlite_jdbc-18ec5cf7395-1e8b88b587ce04b2, SQLite JDBC [3.45.2.0])
+> Start DBeaver SQL Terminal [org.jkiss.dbeaver.ui.editors.sql.terminal 1.0.104.202404071654]
+> Start 핵심 비교 지원 [org.eclipse.compare.core 3.8.300.v20231106-1240]
+> Start 콘솔 [org.eclipse.ui.console 3.13.100.v20230914-0751]
+> Start 디버그 핵심 [org.eclipse.debug.core 3.21.200.v20231021-1513]
+> Start DBeaver SQL Language Semantic Model [org.jkiss.dbeaver.model.lsm 1.0.23.202404071654]
+2024-04-10 11:23:51.531 - java.lang.NullPointerException: Cannot invoke "org.jkiss.dbeaver.model.stm.STMTreeNode.getNodeName()" because "node" is null
+java.lang.NullPointerException: Cannot invoke "org.jkiss.dbeaver.model.stm.STMTreeNode.getNodeName()" because "node" is null
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQueryModelRecognizer.collectIdentifier(SQLQueryModelRecognizer.java:865)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQueryModelRecognizer.collectQualifiedName(SQLQueryModelRecognizer.java:961)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQueryModelRecognizer.collectTableName(SQLQueryModelRecognizer.java:942)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQueryModelRecognizer.traverseForIdentifiers(SQLQueryModelRecognizer.java:458)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQueryModelRecognizer.prepareDataContext(SQLQueryModelRecognizer.java:479)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:625)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:408)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:71)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-04-10 11:23:54.766 - java.lang.NullPointerException: Cannot invoke "org.jkiss.dbeaver.model.stm.STMTreeNode.getNodeName()" because "node" is null
+java.lang.NullPointerException: Cannot invoke "org.jkiss.dbeaver.model.stm.STMTreeNode.getNodeName()" because "node" is null
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQueryModelRecognizer.collectIdentifier(SQLQueryModelRecognizer.java:865)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQueryModelRecognizer.collectQualifiedName(SQLQueryModelRecognizer.java:961)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQueryModelRecognizer.collectTableName(SQLQueryModelRecognizer.java:942)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQueryModelRecognizer.traverseForIdentifiers(SQLQueryModelRecognizer.java:458)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQueryModelRecognizer.prepareDataContext(SQLQueryModelRecognizer.java:479)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:625)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:408)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:71)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-04-10 11:25:06.326 - SQL Error [1]: [SQLITE_ERROR] SQL error or missing database (near ")": syntax error)
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1]: [SQLITE_ERROR] SQL error or missing database (near ")": syntax error)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:614)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:505)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:976)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4155)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:194)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5152)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ")": syntax error)
+	at org.sqlite.core.DB.newSQLException(DB.java:1179)
+	at org.sqlite.core.DB.newSQLException(DB.java:1190)
+	at org.sqlite.core.DB.throwex(DB.java:1150)
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:132)
+	at org.sqlite.core.DB.prepare(DB.java:264)
+	at org.sqlite.jdbc3.JDBC3Statement.lambda$execute$0(JDBC3Statement.java:54)
+	at org.sqlite.jdbc3.JDBC3Statement.withConnectionTimeout(JDBC3Statement.java:454)
+	at org.sqlite.jdbc3.JDBC3Statement.execute(JDBC3Statement.java:43)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+> Start DBeaver Data Transfer [org.jkiss.dbeaver.data.transfer 2.0.112.202404071654]
+> Start ICU4J Base [com.ibm.icu.base 58.2.0.v20170418-1837]
+> Start DBeaver SQLite UI [org.jkiss.dbeaver.ext.sqlite.ui 1.0.98.202404071654]
